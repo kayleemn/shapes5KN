@@ -19,7 +19,10 @@ rOval = Oval(Point(490,490), Point(450,375))
 rOval.setFill(color_rgb(255,0,0))
 rOval.draw(shapesWin)
 
-
+#purple circle
+purCir = Circle(Point(75,440), 50)
+purCir.setFill("purple")
+purCir.draw(shapesWin)
 
 
 
