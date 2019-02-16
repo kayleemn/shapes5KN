@@ -14,6 +14,13 @@ gSq = Rectangle(Point(485,10),Point(435,60))
 gSq.setFill(color_rgb(0,255,0))
 gSq.draw(shapesWin)
 
+#red oval
+rOval = Oval(Point(490,490), Point(450,375))
+rOval.setFill(color_rgb(255,0,0))
+rOval.draw(shapesWin)
+
+
+
 
 
 
