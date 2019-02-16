@@ -1,5 +1,5 @@
 #shapes5KN.py- Kaylee N
-from graphics import*
+from graphics.py import*
 
 shapesWin = GraphWin("Shapes 5" , 500, 500)
 shapesWin.setCoords(0,0,500,500)
