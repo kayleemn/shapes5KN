@@ -29,6 +29,9 @@ blDia = Polygon(Point(200,250), Point(250,300), Point(275,250), Point(250,200))
 blDia.setFill(color_rgb(0,0,255))
 blDia.draw(shapesWin)
 
+shapesWin.getMouse()
+shapesWin.close()
+
 
 
 
