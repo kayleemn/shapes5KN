@@ -1,11 +1,14 @@
 #shapes5KN.py- Kaylee N
-from graphics.py import*
+from graphics import*
+winX = 500
+winY = 500
 
+#Window
 shapesWin = GraphWin("Shapes 5" , 500, 500)
 shapesWin.setCoords(0,0,500,500)
 
 #orange triangle 
-orgTri = Polygon(Point(50,50), Point(75 ,100), Point(100,50))
+orgTri = Polygon(Point(30,10), Point(75 ,60), Point(100,10))
 orgTri.setFill("orange")
 orgTri.draw(shapesWin)
 
@@ -25,7 +28,7 @@ purCir.setFill("purple")
 purCir.draw(shapesWin)
 
 #blue diamond
-blDia = Polygon(Point(200,250), Point(250,300), Point(275,250), Point(250,200))
+blDia = Polygon(Point(winX/2-50,winY/2), Point(winX/2,winY/2+50), Point(winX/2+50,winY/2), Point(winX/2,winY/2-50))
 blDia.setFill(color_rgb(0,0,255))
 blDia.draw(shapesWin)
 
